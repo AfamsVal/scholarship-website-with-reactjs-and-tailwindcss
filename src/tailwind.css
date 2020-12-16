@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwindcss /ui;
+
+.layout {
+  /* overflow: hidden; */
+  min-height: 100vh;
+  background-color: white;
+}
+
+.page-body {
+  padding: 0 10rem 10rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.home-card {
+  margin: 1rem;
+}
+
+.welcome-collapsible .ant-collapse-header {
+  @apply text-lg text-gray-500 font-bold !important;
+}
+
+.welcome-collapsible .ant-collapse-item-active .ant-collapse-header {
+  @apply text-gray-900 !important;
+}
+.carousel-h {
+}
+
+.bg-img-1 {
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./assets/images/bg-1.jpg");
+  height: 70vh;
+}
+.bg-img-2 {
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./assets/images/landing page bg.png");
+  height: 70vh;
+}
+.bg-img-3 {
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./assets/images/bg-3.png");
+  height: 70vh;
+}
+
+.scroll {
+  background-color: pink;
+}
+
+.bg-img {
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./assets/images/header-bg.png");
+}
+
+.bg-news {
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./assets/images/news.jpg");
+}
+
+.bg-contact {
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./assets/images/contact.png");
+}

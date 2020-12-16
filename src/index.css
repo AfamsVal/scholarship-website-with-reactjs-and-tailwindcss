@@ -1,0 +1,6 @@
+.bg-img {
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./images/bg-img.jpg");
+}
